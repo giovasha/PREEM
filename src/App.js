@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Screens/Landing/Header'
+import Video from './Screens/Landing/Video';
+import OurClubs from './Screens/Landing/OurClubs'
+import './styles.css'
+import Services from './Screens/Landing/Services'
+import Barcelo from './Screens/Barcelo/Barcelo';
+import Landing from './Screens/Landing/Landing';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <Landing></Landing>
+
     </div>
   );
 }
